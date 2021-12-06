@@ -1,9 +1,9 @@
-const reducer = (state = 0, action) => {
+const reducer = (state = 10000, action) => {
     if (action.type === 'addItem') {
-        return state + action.payload;
+        return state - action.payload;
     }
     else if (action.type === 'removeItem') {
-        return state - action.payload;
+        return state + action.payload;
     }
     else {
         return state;
