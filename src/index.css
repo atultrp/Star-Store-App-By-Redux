@@ -1,1 +1,9 @@
 /* This is CSS Styling */
+
+#btnPointer{
+    cursor:text;
+}
+
+.social-icons:hover{
+    color: rgb(22, 22, 22);
+}

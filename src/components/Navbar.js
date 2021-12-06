@@ -18,7 +18,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div>
-                        <button className="btn btn-success">Your Balance : 0</button>
+                        <button className="btn btn-success pe-none">Your Wallet : $10000</button>
                     </div>
                 </div>
             </div>
