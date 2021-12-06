@@ -10,7 +10,7 @@ export const About = () => {
             <div>
                 <h2 className="my-3">Introduction</h2>
                 <p className="lead ">
-                    Basically, <strong>Star Store App</strong> is a shopping app in which user can select the product and add to cart, and also show the current wallet status. Basically this app is a base case of redux.
+                    Basically, <strong>Star Store App</strong> is a shopping app in which user can select the product and add to cart, and also show the current wallet status. Basically this app is a use case of redux.
                 </p>
             </div>
             <div>
