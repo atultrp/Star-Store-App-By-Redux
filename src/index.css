@@ -1,7 +1,16 @@
 /* This is CSS Styling */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 #btnPointer{
     cursor:text;
+}
+
+div{
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Libre Baskerville', serif;
 }
 
 .social-icons:hover{
