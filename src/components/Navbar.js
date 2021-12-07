@@ -6,7 +6,7 @@ const Navbar = () => {
     const amount = useSelector(state => state.amount);
     let location = useLocation();
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-light navbar-custom-color">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">Star Store</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div>
-                        <button className="btn btn-success pe-none">Your Wallet : ${amount}</button>
+                        <button className="btn btn-light pe-none">Your Wallet : ${amount}</button>
                     </div>
                 </div>
             </div>

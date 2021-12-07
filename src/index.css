@@ -16,3 +16,18 @@ div{
 .social-icons:hover{
     color: rgb(22, 22, 22);
 }
+
+.navbar-custom-color{
+    /* background-color: #23A0EE; */
+    /* background-color: #61B7F5; */
+    /* background-image: linear-gradient(to bottom right, #23A0EE , #7ec9ff); */
+    background-image: linear-gradient(to right, rgba(46,151,192,1), rgba(83, 176, 241,1));
+    box-shadow: 0 0 8px rgb(16, 140, 189);
+    /* text-shadow: 0 0 3px #000000; */
+}
+
+
+
+.text-style{
+    color: rgb(20, 79, 102);
+}

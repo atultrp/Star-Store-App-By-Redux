@@ -29,7 +29,7 @@ const Shop = () => {
 
     return (
         <div className="container">
-            <h2 className="text-center my-3">Shop whatever you love <i class="fas fa-shopping-cart"></i></h2>
+            <h2 className="text-center my-3 text-style">Shop whatever you love <i class="fas fa-shopping-cart"></i></h2>
             <div className="row">
                 {ItemData.map((element) => {
                     return (
